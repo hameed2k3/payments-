@@ -1,0 +1,32 @@
+export const COLORS = {
+  primary: "#00694c",
+  primaryContainer: "#008560",
+  onPrimary: "#ffffff",
+  secondary: "#086b53",
+  secondaryContainer: "#a0f3d4",
+  onSecondary: "#ffffff",
+  surface: "#f5fbf5",
+  surfaceContainer: "#eaefea",
+  surfaceContainerLow: "#eff5ef",
+  surfaceContainerHigh: "#e4eae4",
+  background: "#f5fbf5",
+  outline: "#6d7a73",
+  outlineVariant: "#bccac1",
+  error: "#ba1a1a",
+  errorContainer: "#ffdad6",
+  onSurface: "#171d1a",
+  onSurfaceVariant: "#3d4943",
+  tertiary: "#993f3a",
+  tertiaryFixed: "#ffdad6",
+  onTertiaryFixedVariant: "#7e2a27",
+};
+
+export const CATEGORIES = [
+  { id: 'food', name: 'Food & Dining', icon: 'Utensils', color: '#FF6B6B', budget: 15000 },
+  { id: 'housing', name: 'Housing & Rent', icon: 'Home', color: '#4D96FF', budget: 25000 },
+  { id: 'transport', name: 'Transport', icon: 'Car', color: '#6BCB77', budget: 5000 },
+  { id: 'entertainment', name: 'Entertainment', icon: 'Film', color: '#FFD93D', budget: 3000 },
+  { id: 'shopping', name: 'Shopping', icon: 'ShoppingBag', color: '#9B72AA', budget: 10000 },
+  { id: 'bills', name: 'Bills', icon: 'Receipt', color: '#4C4C6D', budget: 8000 },
+  { id: 'other', name: 'Other', icon: 'MoreHorizontal', color: '#bccac1', budget: 2000 },
+];

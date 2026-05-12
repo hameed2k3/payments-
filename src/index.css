@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #00694c;
+  --color-primary-container: #008560;
+  --color-on-primary: #ffffff;
+  --color-secondary: #086b53;
+  --color-secondary-container: #a0f3d4;
+  --color-on-secondary: #ffffff;
+  --color-surface: #f5fbf5;
+  --color-surface-container: #eaefea;
+  --color-surface-container-low: #eff5ef;
+  --color-surface-container-high: #e4eae4;
+  --color-surface-container-highest: #dee4de;
+  --color-background: #f5fbf5;
+  --color-outline: #6d7a73;
+  --color-outline-variant: #bccac1;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-surface: #171d1a;
+  --color-on-surface-variant: #3d4943;
+  --color-tertiary: #993f3a;
+  --color-tertiary-fixed: #ffdad6;
+  --color-on-tertiary-fixed-variant: #7e2a27;
+
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-sans antialiased;
+  }
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
